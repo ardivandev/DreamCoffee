@@ -443,8 +443,8 @@ footer * {
   font-size: 1.1rem;
 }
 
-/* * Mobile */
-@media screen and (max-width: 450px) {
+/* * Mobile / Tablet */
+@media screen and (max-width: 650px) {
   html {
     font-size: 80%;
   }
