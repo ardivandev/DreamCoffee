@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "nama": "Americano",
+    "img": "images/menu/americano.webp",
+    "harga": 20000,
+    "deskripsi": "Kopi hitam klasik yang dibuat dari espresso berkualitas tinggi dengan tambahan air panas."
+  },
+  {
+    "id": 2,
+    "nama": "Black Coffee",
+    "img": "images/menu/blackcoffee.webp",
+    "harga": 18000,
+    "deskripsi": "Seduhan kopi hitam murni yang mantap dengan aroma yang kuat dan rasa yang otentik."
+  },
+  {
+    "id": 3,
+    "nama": "Caffe Latte",
+    "img": "images/menu/caffelatte.webp",
+    "harga": 25000,
+    "deskripsi": "Paduan lembut antara espresso mantap dengan susu murni ditambah sentuhan latte art di atasnya."
+  },
+  {
+    "id": 4,
+    "nama": "Cappuccino",
+    "img": "images/menu/cappuccino.webp",
+    "harga": 25000,
+    "deskripsi": "Keseimbangan sempurna antara espresso, susu hangat, dan busa susu (foam) tebal dengan taburan bubuk cokelat."
+  },
+  {
+    "id": 5,
+    "nama": "Caramel Latte",
+    "img": "images/menu/caramellatte.webp",
+    "harga": 28000,
+    "deskripsi": "Kopi latte lembut yang dipadukan dengan sirup karamel manis dan disajikan bersama krim kocok di atasnya."
+  },
+  {
+    "id": 6,
+    "nama": "Iced Coffee",
+    "img": "images/menu/icedcoffee.webp",
+    "harga": 22000,
+    "deskripsi": "Kopi susu segar pilihan yang disajikan dingin dengan es batu, sangat pas untuk menyegarkan harimu."
+  },
+  {
+    "id": 7,
+    "nama": "Matcha Latte",
+    "img": "images/menu/matchalatte.webp",
+    "harga": 26000,
+    "deskripsi": "Kombinasi bubuk teh hijau matcha Jepang premium dengan susu murni yang lembut dan gurih."
+  },
+  {
+    "id": 8,
+    "nama": "Mocha Coffee",
+    "img": "images/menu/mochacoffee.webp",
+    "harga": 28000,
+    "deskripsi": "Perpaduan lezat antara espresso kental, susu hangat, dan cokelat premium yang melimpah."
+  }
+]

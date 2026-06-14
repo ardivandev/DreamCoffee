@@ -3,214 +3,266 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- Meta -->
-    <meta name="description" content="DreamCoffee Landing Page" />
-    <meta name="keyword" content="DreamCoffee, Dream, Coffee, Landing Page" />
+    <meta name="description" , content="DreamCoffee is a coffee shop modern" />
+    <meta name="keyword" , content="Coffee, DreamCoffee, Dream, Coffee" />
     <meta name="author" content="Ardivan Nur Raihan Rahman" />
-
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
-
-    <!-- Style -->
-    <link rel="stylesheet" href="css/style.css" />
     <title>DreamCoffee</title>
+
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- Header Start -->
-    <header>
-      <a href="#">Dream<span>Coffee</span></a>
-      <!-- Nav Start -->
-      <nav>
-        <a href="#">Home</a>
-        <a href="#about">About</a>
-        <a href="#menu">Menu</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#blog">Blog</a>
-        <a href="#contact">Contact</a>
+    <header class="fixed-top container p-2">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" href="#">Dream<span>Coffee</span></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-semibold" href="#blog">Blog</a>
+              </li>
+            </ul>
+            <div>
+              <button class="btn" type="submit" title="cart">
+                <i class="bi bi-cart"></i> <span class="badge text-bg-dark">0</span>
+              </button>
+            </div>
+          </div>
+        </div>
       </nav>
-      <button type="button" id="bar-menu"><i class="fa-solid fa-bars"></i></button>
-      <!-- Nav End -->
     </header>
     <!-- Header End -->
 
-    <!-- Main Start -->
+    <!-- Main -->
     <main>
-      <section class="hero">
-        <div class="hero-text">
-          <h1>Coffee <span>First</span>, Everything Later</h1>
-          <p>
-            Start your day with bold flavors, chill vibes, and coffee made to keep your energy
-            alive.
-          </p>
-          <a href="#menu">Order Now</a>
-        </div>
-        <div class="hero-img-background"></div>
-      </section>
-
-      <section class="about" id="about">
-        <div class="about-text">
-          <h2>About Dream<span>Coffee</span></h2>
-
-          <p>
-            DreamCoffee is more than just a coffee shop — it's a place where comfort, flavor, and
-            passion come together in every cup. We believe coffee should create moments worth
-            remembering.
-          </p>
-
-          <p>
-            From freshly selected beans to handcrafted brewing techniques, we are dedicated to
-            serving high-quality coffee with a warm and relaxing atmosphere for everyone.
-          </p>
-        </div>
-        <div class="about-img-background"></div>
-      </section>
-
-      <section class="menu" id="menu">
-        <h2>Menu Dream<span>Coffee</span></h2>
-        <div class="menu-item">
-          <div class="item">
-            <img src="images/product/img-coffee1.jpg" alt="Espresso" loading="lazy" />
-            <div class="item-text">
-              <p>Espresso</p>
-              <p>Price: $4</p>
-            </div>
+      <!-- Hero -->
+      <section id="hero" class="container">
+        <div class="row">
+          <div class="col-12 col-md-6 hero-text" data-aos="fade-right" data-aos-delay="500">
+            <h1 class="fw-bold">Coffee First, Everything Later</h1>
+            <p class="text-custom">
+              Start your day with bold flavors, chill vibes, and coffee made to keep your energy
+              alive.
+            </p>
+            <p>
+              <a href="#" class="fw-semibold"><i class="bi bi-instagram"></i> Instagram</a>
+              <a href="#" class="fw-semibold"><i class="bi bi-tiktok"></i> Tiktok</a>
+            </p>
+            <a href="#menu" class="btn btn-custom">Order Now</a>
           </div>
-
-          <div class="item">
-            <img src="images/product/img-coffee2.jpg" alt="Cappuccino" loading="lazy" />
-            <div class="item-text">
-              <p>Cappuccino</p>
-              <p>Price: $6</p>
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="images/product/img-coffee3.jpg" alt="Latte" loading="lazy" />
-            <div class="item-text">
-              <p>Vanilla Latte</p>
-              <p>Price: $7</p>
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="images/product/img-coffee4.jpg" alt="Mocha" loading="lazy" />
-            <div class="item-text">
-              <p>Chocolate Mocha</p>
-              <p>Price: $8</p>
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="images/product/img-coffee5.jpg" alt="Americano" loading="lazy" />
-            <div class="item-text">
-              <p>Americano</p>
-              <p>Price: $5</p>
-            </div>
+          <div class="col-12 col-md-6 d-none d-md-block" data-aos="fade-left" data-aos-delay="1000">
+            <img src="images/home-img.webp" alt="Home Image" class="img-fluid" />
           </div>
         </div>
       </section>
+      <!-- Hero End -->
 
-      <section class="gallery" id="gallery">
-        <h2>Gallery Dream<span>Coffee</span></h2>
-        <div class="gallery-container">
-          <img src="images/gallery/img-gallery1.jpg" alt="Image Gallery Coffee" loading="lazy" />
-          <img src="images/gallery/img-gallery2.jpg" alt="Image Gallery Coffee" loading="lazy" />
-          <img src="images/gallery/img-gallery3.jpg" alt="Image Gallery Coffee" loading="lazy" />
-          <img src="images/gallery/img-gallery4.jpg" alt="Image Gallery Coffee" loading="lazy" />
-          <img src="images/gallery/img-gallery5.jpg" alt="Image Gallery Coffee" loading="lazy" />
-          <img src="images/gallery/img-gallery6.jpg" alt="Image Gallery Coffee" loading="lazy" />
-          <img src="images/gallery/img-gallery7.jpg" alt="Image Gallery Coffee" loading="lazy" />
-          <img src="images/gallery/img-gallery8.jpg" alt="Image Gallery Coffee" loading="lazy" />
-          <img src="images/gallery/img-gallery9.jpg" alt="Image Gallery Coffee" loading="lazy" />
+      <!-- Teks Dream Coffee -->
+      <section class="marquee-container">
+        <div class="marquee-content">
+          <span>DreamCoffee</span>
+          <span>DreamCoffee</span>
+          <span>DreamCoffee</span>
+          <span>DreamCoffee</span>
+          <span>DreamCoffee</span>
+          <span>DreamCoffee</span>
+          <span>DreamCoffee</span>
+          <span>DreamCoffee</span>
+        </div>
+        <div class="marquee-content" aria-hidden="true">
+          <span>DreamCoffee</span>
+          <span>DreamCoffee</span>
+          <span>DreamCoffee</span>
+          <span>DreamCoffee</span>
+          <span>DreamCoffee</span>
+          <span>DreamCoffee</span>
+          <span>DreamCoffee</span>
+          <span>DreamCoffee</span>
         </div>
       </section>
+      <!-- Teks Dream Coffee End -->
 
-      <section class="blog" id="blog">
-        <h2>Blog Dream<span>Coffee</span></h2>
-        <div class="blog-container">
-          <article class="blog-item">
-            <div class="img-blog-item">
-              <img src="images/product/img-coffee1.jpg" alt="Coffee Image" />
-            </div>
-            <div class="text-blog-item">
-              <h3>The Secret Behind Perfect Espresso</h3>
-              <p>
-                Discover how coffee beans, grind size, and brewing techniques create the rich flavor
-                of a perfect espresso shot.
-              </p>
-              <button type="button">Go To Article</button>
-            </div>
-          </article>
-
-          <article class="blog-item">
-            <div class="img-blog-item">
-              <img src="images/gallery/img-gallery10.jpg" alt="Morning Coffee" />
-            </div>
-            <div class="text-blog-item">
-              <h3>Why Coffee Makes Your Morning Better</h3>
-              <p>
-                Learn how coffee boosts energy, improves focus, and becomes the perfect companion to
-                start your productive day.
-              </p>
-              <button type="button">Go To Article</button>
-            </div>
-          </article>
-
-          <article class="blog-item">
-            <div class="img-blog-item">
-              <img src="images/gallery/img-gallery9.jpg" alt="Pupular Coffee" />
-            </div>
-            <div class="text-blog-item">
-              <h3>Top 5 Most Popular Coffee Drinks</h3>
-              <p>
-                From Cappuccino to Latte, explore the most loved coffee drinks and find your
-                favorite flavor at DreamCoffee.
-              </p>
-              <button type="button">Go To Article</button>
-            </div>
-          </article>
-        </div>
+      <!-- About -->
+      <section id="about" class="container text-center">
+        <h2 class="mb-3 fw-semibold">About Us</h2>
+        <p class="text-custom">
+          DreamCoffee is more than just a coffee shop — it's a place where comfort, flavor, and
+          passion come together in every cup. We believe coffee should create moments worth
+          remembering. From freshly selected beans to handcrafted brewing techniques, we are
+          dedicated to serving high-quality coffee with a warm and relaxing atmosphere for everyone.
+        </p>
       </section>
+      <!-- About End -->
 
-      <section class="contact" id="contact">
-        <h2>Contact Dream<span>Coffee</span></h2>
-        <form action="#" method="post">
-          <div>
-            <label for="name">Name</label>
-            <input type="text" name="name" id="name" maxlength="50" placeholder="name..." />
-          </div>
-          <div>
-            <label for="email">Email</label>
-            <input type="email" name="email" id="email" maxlength="50" placeholder="email..." />
-          </div>
-          <div>
-            <label for="message">Message Order</label>
-            <textarea name="message" id="message">
-Hello DreamCoffee,
-
-I would like to place an order for:
-- name-coffee
-
-Please confirm the availability of the items. Thank you.
-            </textarea>
-          </div>
-          <div>
-            <button type="submit">Submit Order</button>
-            <button type="reset">Reset</button>
-          </div>
+      <!-- Menu -->
+      <section id="menu" class="container">
+        <h2 class="mb-3 text-center fw-semibold">Our Menu</h2>
+        <form action="" class="mb-3">
+          <label for="search" class="form-label">Search for Products</label>
+          <input
+            class="form-control"
+            list="datalistOptions"
+            id="search"
+            placeholder="Type to search..."
+          />
+          <datalist id="datalistOptions">
+            <option value="Americano"></option>
+            <option value="Black Caffee"></option>
+            <option value="Caffee Latte"></option>
+            <option value="Cappuccino"></option>
+            <option value="Caramel Latte"></option>
+            <option value="Iced Coffee"></option>
+            <option value="Matcha Latte"></option>
+            <option value="Mocha Latte"></option>
+          </datalist>
         </form>
+        <div class="menu-container"></div>
       </section>
+      <!-- Menu End -->
+
+      <!-- Blog -->
+      <section id="blog" class="container">
+        <div class="container position-relative">
+          <h2 class="text-center fw-bold mb-4">Our Latest Blog</h2>
+
+          <div class="slider-wrapper">
+            <div class="blog-slider-inner" id="blogSlider"></div>
+          </div>
+
+          <button class="btn-panah prev-btn" id="prevBtn" title="Previous">
+            <i class="bi bi-chevron-left"></i>
+          </button>
+
+          <button class="btn-panah next-btn" id="nextBtn" title="Next">
+            <i class="bi bi-chevron-right"></i>
+          </button>
+        </div>
+      </section>
+      <!-- Blog End -->
     </main>
     <!-- Main End -->
 
-    <!-- Footer Start -->
-    <footer>
-      <p>Copyright &copy; Ardivan Nur Raihan Rahman | 2026</p>
+    <!-- Footer -->
+    <footer class="footer-custom pt-5 pb-3">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6">
+            <h5 class="fw-bold text-white mb-3">Dream<span>Coffee</span></h5>
+            <p class="text-muted small">
+              Menghadirkan kebahagiaan lewat secangkir kopi berkualitas tinggi pilihan dari petani
+              lokal. Tempat terbaik untuk memulai hari produktif Anda.
+            </p>
+            <div class="footer-socials d-flex gap-3 mt-3">
+              <a href="#" title="Facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" title="Instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" title="Twitter (X)"><i class="bi bi-twitter-x"></i></a>
+              <a href="#" title="Youtube"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-6">
+            <h6 class="fw-bold text-white mb-3">Quick Links</h6>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#home" class="small">Home</a></li>
+              <li><a href="#about" class="small">About Us</a></li>
+              <li><a href="#menu" class="small">Our Menu</a></li>
+              <li><a href="#blog" class="small">Blog Articles</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h6 class="fw-bold text-white mb-3">Opening Hours</h6>
+            <ul class="list-unstyled text-muted small">
+              <li class="mb-2 d-flex justify-content-between">
+                <span>Senin - Jumat:</span>
+                <span class="text-white">09:00 - 22:00</span>
+              </li>
+              <li class="mb-2 d-flex justify-content-between">
+                <span>Sabtu - Minggu:</span>
+                <span class="text-white">10:00 - 23:00</span>
+              </li>
+              <li class="d-flex justify-content-between">
+                <span>Hari Libur:</span>
+                <span class="fw-semibold text-custom-color">Tutup</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6">
+            <h6 class="fw-bold text-white mb-3">Newsletter</h6>
+            <p class="text-muted small">
+              Dapatkan info promo menarik dan artikel kopi gratis langsung di emailmu.
+            </p>
+            <form class="mt-3">
+              <div class="input-group mb-2">
+                <input
+                  type="email"
+                  class="form-control form-control-sm bg-dark text-white border-secondary"
+                  placeholder="Email Anda"
+                  aria-label="Email Anda"
+                />
+                <button class="btn btn-primary btn-sm" type="button">Daftar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <hr class="border-secondary my-4" />
+
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start">
+            <p class="text-muted small mb-0">&copy; 2026 DreamCoffee. All Rights Reserved.</p>
+          </div>
+          <div class="col-md-6 text-center text-md-end mt-2 mt-md-0">
+            <a href="#" class="text-muted small text-decoration-none me-3">Privacy Policy</a>
+            <a href="#" class="text-muted small text-decoration-none">Terms of Service</a>
+          </div>
+        </div>
+      </div>
     </footer>
     <!-- Footer End -->
 
-    <!-- Fonst -->
-    <script src="https://kit.fontawesome.com/a5f6b50661.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/script.js"></script>
   </body>
 </html>

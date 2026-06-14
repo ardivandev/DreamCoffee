@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "judul": "The Secret Behind Perfect Espresso",
+    "img": "images/blogs/img-blog1.webp",
+    "date": "12 June 2026",
+    "author": "Admin DreamCoffee",
+    "description": "Discover how coffee beans, grind size, and brewing techniques create the rich flavor of a perfect espresso shot.",
+    "content": "Membuat espresso yang sempurna adalah perpaduan antara seni dan sains. Mulai dari pemilihan biji kopi berkualitas, pengaturan tingkat kehalusan gilingan (grind size), hingga tekanan air pada mesin espresso. Sedikit saja perubahan pada variabel ini akan mengubah cita rasa kopi Anda secara drastis. Artikel ini akan membahas langkah demi langkah untuk mendapatkan espresso shot yang konsisten dengan crema yang tebal."
+  },
+  {
+    "id": 2,
+    "judul": "Why Coffee Makes Your Morning Better",
+    "img": "images/blogs/img-blog2.webp",
+    "date": "10 June 2026",
+    "author": "Sasa Amelia",
+    "description": "Learn how coffee boosts energy, improves focus, and becomes the perfect companion to start your productive day.",
+    "content": "Bagi banyak orang, aroma kopi di pagi hari adalah alarm terbaik untuk memulai aktivitas. Kafein di dalam kopi terbukti secara ilmiah mampu memblokir adenosin (senyawa yang memicu rasa kantuk) di dalam otak, meningkatkan fokus, serta memperbaiki suasana hati. Menikmati secangkir kopi hangat sebelum bekerja memberikan dorongan energi positif untuk hari yang lebih produktif."
+  },
+  {
+    "id": 3,
+    "judul": "Top 5 Most Popular Coffee Drinks",
+    "img": "images/blogs/img-blog3.webp",
+    "date": "08 June 2026",
+    "author": "Barista Kevin",
+    "description": "From Cappuccino to Latte, explore the most loved coffee drinks and find your favorite flavor at DreamCoffee.",
+    "content": "Dunia kopi menawarkan begitu banyak variasi rasa. Dari pahit dan kuatnya Espresso, kelembutan susu dalam Caffe Latte, hingga keseimbangan foam tebal pada Cappuccino. Jika Anda menyukai sensasi manis, Caramel Latte atau Mocha bisa menjadi pilihan yang tepat. Kenali karakteristik masing-masing menu populer ini untuk menemukan mana rasa yang paling mewakili kepribadian Anda."
+  },
+  {
+    "id": 4,
+    "judul": "The Art of Coffee Bean Roasting",
+    "img": "images/blogs/img-blog4.webp",
+    "date": "05 June 2026",
+    "author": "Roaster Expert",
+    "description": "Uncover how the roasting process transforms green coffee beans into aromatic, flavorful delights.",
+    "content": "Sebelum menjadi bubuk kopi yang nikmat, biji kopi hijau (green beans) harus melewati proses roasting terlebih dahulu. Proses ini terbagi menjadi beberapa tingkatan: light roast untuk rasa yang lebih asam dan buah, medium roast untuk rasa yang seimbang, hingga dark roast untuk rasa yang kuat dan pahit pekat. Roasting adalah kunci utama yang melepaskan minyak alami dan aroma khas dari setiap biji kopi."
+  }
+]
